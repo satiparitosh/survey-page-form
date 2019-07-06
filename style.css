@@ -1,0 +1,51 @@
+body{
+    background-color:#a9d7d1;
+}
+.labelmodify{
+    text-align:right;
+}
+.container{
+    background-color:#fff;
+    border-radius:5px;
+    padding-bottom:0;
+    margin-bottom:5px;
+}
+@media (max-width:600px){
+    .container{
+        width:400px;
+    }
+    .labelmodify{
+        text-align:left;
+    }
+}
+@media (min-width:600px){
+    .container {
+        width:80%;
+    }
+}
+.container-fluid{
+    text-align:center;
+}
+.container-fluid #title{
+    margin:2% 0;
+    text-align:center;
+}
+#description{
+    text-align:center;
+}
+#survey-form{
+    margin-bottom:1%;
+    padding:0;
+}
+.frow{
+    margin-left:0;
+    margin-right:0;
+}
+.container p{
+    margin:0;
+    padding:3%;
+}
+#submit{
+    display:block;
+    margin:0 auto;
+}
